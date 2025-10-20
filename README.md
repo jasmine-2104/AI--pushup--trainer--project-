@@ -59,23 +59,35 @@ Follow these instructions to get the project running on your local machine.
 
 ### 🛠️ Installation & Setup
 
-1.  git clone \[https://github.com/your-username/AI-Pushup-Trainer.git\](https://github.com/your-username/AI-Pushup-Trainer.git)cd AI-Pushup-Trainer
+1. **Clone the repository:**
+
+```bash
+git clone \[https://github.com/your-username/AI-Pushup-Trainer.git\](https://github.com/your-username/AI-Pushup-Trainer.git)cd AI-Pushup-Trainer
+```
     
 2.  **Create and activate a virtual environment:**
     
-    *   python -m venv venvvenv\\Scripts\\activate
-        
-    *   python3 -m venv venvsource venv/bin/activate
-        
-3.  pip install opencv-python mediapipe numpy
+    ```bash
+    *   python -m venv venv
+        venv\\Scripts\\activate
+     ```
+
     
+        
+3. **Install the required libraries:**
+
+```bash
+ pip install opencv-python mediapipe numpy
+   ``` 
 
 ▶️ How to Run
 -------------
 
 With your virtual environment activated and dependencies installed, run the following command in your terminal:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python pushup_trainer_smart.py   `
+```bash
+  python pushup_trainer_smart.py   
+  ```
 
 *   A window will pop up showing your webcam feed.
     
